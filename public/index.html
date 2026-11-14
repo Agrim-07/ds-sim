@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="ds-sim: learn data structures through animated simulations and a story-driven mission campaign." />
+    <meta name="color-scheme" content="light dark" />
+    <title>ds-sim - Data Structure Simulator</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script type="module" src="/js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="#/" aria-label="ds-sim home">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+            <circle cx="16" cy="7" r="5" />
+            <circle cx="7" cy="24" r="5" />
+            <circle cx="25" cy="24" r="5" />
+            <path d="M13.5 11.5 9.5 19.5M18.5 11.5l4 8" />
+          </svg>
+          <span>ds-sim</span>
+        </a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="#/story" data-nav="/story">Story</a>
+          <a href="#/sandbox" data-nav="/sandbox">Sandbox</a>
+          <a href="#/history" data-nav="/history">History</a>
+        </nav>
+        <div class="header-actions">
+          <button id="theme-toggle" class="icon-button" type="button" aria-label="Switch between light and dark mode">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9A7 7 0 0 1 12 3Z" /></svg>
+          </button>
+          <div id="account-slot" class="account-slot"></div>
+        </div>
+      </div>
+    </header>
+    <main id="main" class="page" tabindex="-1">
+      <noscript><p class="notice">ds-sim needs JavaScript to run its simulations.</p></noscript>
+    </main>
+    <footer class="site-footer">
+      <p>ds-sim - learn data structures by watching them work. <a href="#/privacy">Privacy</a></p>
+    </footer>
+    <div id="toasts" class="toasts" aria-live="polite"></div>
+  </body>
+</html>

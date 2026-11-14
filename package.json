@@ -1,0 +1,24 @@
+{
+  "name": "ds-sim",
+  "version": "1.0.0",
+  "description": "A story-driven data structure simulator that animates how data structures work, step by step.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node scripts/start.js",
+    "serve": "node server/index.js",
+    "test": "node --test",
+    "keygen": "node scripts/keygen.js"
+  },
+  "keywords": [
+    "data-structures",
+    "algorithms",
+    "visualization",
+    "education",
+    "simulator"
+  ]
+}

@@ -1,0 +1,10 @@
+.git
+.github
+data
+docs
+tests
+node_modules
+.env
+*.key
+ds-sim
+ds-sim.cmd

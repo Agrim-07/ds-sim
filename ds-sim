@@ -1,0 +1,13 @@
+#!/bin/sh
+# Starts ds-sim on macOS, Linux and other Unix-like systems.
+# Usage: ./ds-sim            (or: sh ds-sim)
+#        PORT=4000 ./ds-sim  (choose another port)
+
+cd "$(dirname "$0")" || exit 1
+
+if ! command -v node >/dev/null 2>&1; then
+  echo "ds-sim needs Node.js 20 or newer. Install it from https://nodejs.org and run this again."
+  exit 1
+fi
+
+exec node scripts/start.js "$@"

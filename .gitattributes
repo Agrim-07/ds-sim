@@ -1,0 +1,6 @@
+# Keep Unix line endings everywhere (the ds-sim shell launcher breaks with CRLF),
+# but Windows batch files need CRLF.
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.ico binary

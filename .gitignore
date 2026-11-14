@@ -1,0 +1,17 @@
+# Runtime data: the encrypted database and the local master key. Never commit these.
+data/
+
+# Secrets
+.env
+*.key
+
+# Dependencies and tooling
+node_modules/
+npm-debug.log*
+coverage/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
