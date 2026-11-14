@@ -39,7 +39,7 @@ On first run a random encryption key is created in `data/master.key`. Keep it: w
 npm test
 ```
 
-The suite uses Node's built-in test runner and covers the HTTP API (auth, validation, CSRF protection, path traversal, encryption at rest, account export and deletion), the cryptography helpers and every data structure's logic. GitHub Actions runs it on Windows, macOS and Linux with Node 20 and 22.
+The suite uses Node's built-in test runner and covers the HTTP API (auth, validation, CSRF protection, path traversal, encryption at rest, account export and deletion), the cryptography helpers and every data structure's logic. GitHub Actions runs it on Windows, macOS and Linux with Node 20, 22 and 24.
 
 ## Architecture
 
