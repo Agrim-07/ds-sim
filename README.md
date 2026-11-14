@@ -2,6 +2,8 @@
 
 **Learn data structures by watching them move.** ds-sim animates every comparison, shift, swap, pointer change and rotation step by step, and wraps the whole subject in a story campaign: 15 missions across 4 acts that take a complete beginner from "what is an array?" to AVL rotations, graph search and union-find.
 
+**Live demo:** [ds-sim.centralindia.cloudapp.azure.com](https://ds-sim.centralindia.cloudapp.azure.com)
+
 ![Sandbox showing a binary search tree](docs/screenshots/sandbox-bst.png)
 
 ## Features
@@ -112,6 +114,8 @@ Found a vulnerability? See [SECURITY.md](SECURITY.md).
 cp .env.example .env    # then fill in DS_SIM_MASTER_KEY and SITE_ADDRESS
 docker compose up -d --build
 ```
+
+The live demo runs this exact setup on a small Ubuntu 24.04 virtual machine on Microsoft Azure (Central India). Only ports 80 and 443 are open to the internet, the master key is generated on the server and never leaves it, and the OS installs security updates automatically.
 
 ## License
 
